@@ -1,4 +1,4 @@
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
     game.over(true)
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
